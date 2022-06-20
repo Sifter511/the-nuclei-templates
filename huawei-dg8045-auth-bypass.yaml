@@ -11,7 +11,7 @@ info:
 requests:
   - method: GET
     path:
-      - "{{BaseURL}}/api/system/deviceinfo"
+      - "192.168.1.1/html/device_info_view.js"
 
     matchers-condition: and
     matchers:
